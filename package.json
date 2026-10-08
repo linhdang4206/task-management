@@ -1,0 +1,27 @@
+{
+  "name": "task-management",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "md5": "^2.3.0",
+    "mongoose": "^9.10.4",
+    "nodemailer": "^10.0.15"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
